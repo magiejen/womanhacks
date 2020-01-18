@@ -1,0 +1,68 @@
+{"menu": {
+  "temp": [
+      {"value": "hot"},
+      {"value": "iced"}
+  ]
+  "topping": [
+      {"value": "boba"},
+      {"value": "crystal boba"},
+      {"value": "mini boba"},
+      {"value": "popping boba"},
+      {"value": "sago"},
+      {"value": "aloe vera"},
+      {"value": "lychee jelly"},
+      {"value": "coffee jelly"},
+      {"value": "coconut jelly"},
+      {"value": "grass jelly"},
+      {"value": "egg pudding"},
+      {"value": "milk pudding"},
+      {"value": "red bean"},
+      {"value": "mung bean"},
+      {"value": "basil seed"}
+  ]
+  "base": [
+      {"value": "green tea"},
+      {"value": "black tea"},
+      {"value": "oolong"}
+  ]
+  "flavor": {
+    "milky": [
+      {"value": "milk"},
+      {"value": "coffee"},
+      {"value": "thai"},
+      {"value": "taro"},
+      {"value": "rose"},
+      {"value": "jasmine"},
+      {"value": "honey"}
+    ]
+    "fruity": [
+      {"value": "strawberry"},
+      {"value": "mango"},
+      {"value": "orange"},
+      {"value": "lemon"},
+      {"value": "passionfruit"},
+      {"value": "lychee"},
+      {"value": "wintermelon"},
+      {"value": "peach"},
+      {"value": "grapefruit"},
+      {"value": "longan"},
+      {"value": "honey"}
+    ]
+    "yogurt": [
+      {"value": "strawberry"},
+      {"value": "mango"},
+      {"value": "orange"},
+      {"value": "lemon"},
+      {"value": "passionfruit"},
+      {"value": "lychee"},
+      {"value": "wintermelon"},
+      {"value": "peach"},
+      {"value": "grapefruit"},
+      {"value": "plum"}
+    ]
+    
+  }
+}
+}
+  
+
