@@ -30,7 +30,8 @@ struct DrinkView: View {
     @State var base = "green tea"
     
     let drink_toppings = ["boba"," lychee jelly", "coffee jelly", "aloe vera", "grass jelly", "egg pudding", "milk pudding", "crystal boba", "mini boba", "popping boba", "red bean", "mungbean", "coconut jelly", "sago", "basil seed"]
-    let drink_flavors = ["strawberry", "mango", "orange", "lemon", "passionfruit", "lychee", "wintermelon", "peach", "grapefruit", "longan", "honey"]
+    let fruit_flavors = ["strawberry", "mango", "orange", "lemon", "passionfruit", "lychee", "wintermelon", "peach", "grapefruit", "longan", "honey"]
+    let milk_flavors = ["milk", "coffee", "Thai", "taro", "rose", "jasmine"]
     let drink_heat = ["iced", "hot"]
     let drink_base = ["green tea", "black tea", "oolong tea"]
     
@@ -38,8 +39,14 @@ struct DrinkView: View {
     func fillCup(){
         let randomHeat = Int.random(in: 0 ..< self.drink_heat.count)
         self.heat = self.drink_heat[randomHeat]
-        let randomFlavor = Int.random(in: 0 ..< self.drink_flavors.count)
-        self.flavor = self.drink_flavors[randomFlavor]
+        let randomChoice = Int.random(in: 0 ... 2)
+        if randomChoice == 0 {
+            let randomFlavor = Int.random(in: 0 ..< self.fruit_flavors.count)
+            self.flavor = self.fruit_flavors[randomFlavor]
+        } else {
+            let randomFlavor = Int.random(in: 0 ..< self.milk_flavors.count)
+            self.flavor = self.milk_flavors[randomFlavor]
+        }
         let randomBase = Int.random(in: 0 ..< self.drink_base.count)
         self.base = self.drink_base[randomBase]
         let randomTopping = Int.random(in: 0 ..< self.drink_toppings.count)
@@ -53,13 +60,16 @@ struct DrinkView: View {
             
             VStack {
                 Spacer(minLength: 175)
-                Text("\(heat)").font(.custom("Avenir", size: 30)).padding()
-                Text("\(flavor)").font(.custom("Avenir", size: 30)).padding()
-                Text("\(base)").font(.custom("Avenir", size: 30)).padding()
-                Text("with \(topping)").font(.custom("Avenir", size: 30)).padding()
+//                Text("\(heat)").font(.custom("Avenir", size: 30)).padding()
+//                Text("\(flavor)").font(.custom("Avenir", size: 30)).padding()
+//                Text("\(base)").font(.custom("Avenir", size: 30)).padding()
+//                Text("with \(topping)").font(.custom("Avenir", size: 30)).padding()
+                
+                
+                
                 Spacer(minLength: 20)
                 Text("You got: \(heat) \(flavor) \(base) with \(topping)")
-                    .font(.custom("American Typewriter", size: 30))
+                    .font(.custom("American Typewriter", size: 25))
                     .padding()
                     .multilineTextAlignment(.center)
                 Button(action: {
