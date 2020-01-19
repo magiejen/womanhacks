@@ -12,7 +12,12 @@ class BobaViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        let imageName1 = "blankBoba.png"
+        let image1 = UIImage(named: imageName1)
+        let imageView1 = UIImageView(image: image1!)
+        imageView1.frame = CGRect(x: 0, y: 0, width: 60, height: 60)
+        self.view.bringSubviewToFront(imageView1)
         // Do any additional setup after loading the view.
     }
     
