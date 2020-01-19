@@ -65,8 +65,6 @@ struct SelectionView: View {
             } else {
                 DrinkView()
             }
-            
-            
         }
     }
 }

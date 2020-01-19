@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		11BC0F9C23D384500020DAE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BC0F9B23D384500020DAE9 /* AppDelegate.swift */; };
 		11BC0F9E23D384500020DAE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BC0F9D23D384500020DAE9 /* SceneDelegate.swift */; };
-		11BC0FA023D384500020DAE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BC0F9F23D384500020DAE9 /* ContentView.swift */; };
+		11BC0FA023D384500020DAE9 /* DrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BC0F9F23D384500020DAE9 /* DrinkView.swift */; };
 		11BC0FA223D384520020DAE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11BC0FA123D384520020DAE9 /* Assets.xcassets */; };
 		11BC0FA523D384520020DAE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11BC0FA423D384520020DAE9 /* Preview Assets.xcassets */; };
 		11BC0FA823D384520020DAE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11BC0FA623D384520020DAE9 /* LaunchScreen.storyboard */; };
+		11BC0FB423D397C30020DAE9 /* drinkContents.json in Resources */ = {isa = PBXBuildFile; fileRef = 11BC0FB323D397C30020DAE9 /* drinkContents.json */; };
+		11BC0FB623D3C60C0020DAE9 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BC0FB523D3C60C0020DAE9 /* WelcomeScreen.swift */; };
+		11BC0FB823D3C97D0020DAE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BC0FB723D3C97D0020DAE9 /* ContentView.swift */; };
+		11BC0FBA23D3E0050020DAE9 /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BC0FB923D3E0050020DAE9 /* SelectionView.swift */; };
+		11BC0FBC23D3E5680020DAE9 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BC0FBB23D3E5680020DAE9 /* PreferencesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11BC0F9823D384500020DAE9 /* bobaGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bobaGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11BC0F9B23D384500020DAE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11BC0F9D23D384500020DAE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		11BC0F9F23D384500020DAE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		11BC0F9F23D384500020DAE9 /* DrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		11BC0FA123D384520020DAE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11BC0FA423D384520020DAE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		11BC0FA723D384520020DAE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11BC0FA923D384520020DAE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11BC0FB323D397C30020DAE9 /* drinkContents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = drinkContents.json; sourceTree = "<group>"; };
+		11BC0FB523D3C60C0020DAE9 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		11BC0FB723D3C97D0020DAE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		11BC0FB923D3E0050020DAE9 /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		11BC0FBB23D3E5680020DAE9 /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +66,14 @@
 		11BC0F9A23D384500020DAE9 /* bobaGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				11BC0FB323D397C30020DAE9 /* drinkContents.json */,
 				11BC0F9B23D384500020DAE9 /* AppDelegate.swift */,
 				11BC0F9D23D384500020DAE9 /* SceneDelegate.swift */,
-				11BC0F9F23D384500020DAE9 /* ContentView.swift */,
+				11BC0FB723D3C97D0020DAE9 /* ContentView.swift */,
+				11BC0F9F23D384500020DAE9 /* DrinkView.swift */,
+				11BC0FB523D3C60C0020DAE9 /* WelcomeScreen.swift */,
+				11BC0FB923D3E0050020DAE9 /* SelectionView.swift */,
+				11BC0FBB23D3E5680020DAE9 /* PreferencesView.swift */,
 				11BC0FA123D384520020DAE9 /* Assets.xcassets */,
 				11BC0FA623D384520020DAE9 /* LaunchScreen.storyboard */,
 				11BC0FA923D384520020DAE9 /* Info.plist */,
@@ -136,6 +151,7 @@
 				11BC0FA823D384520020DAE9 /* LaunchScreen.storyboard in Resources */,
 				11BC0FA523D384520020DAE9 /* Preview Assets.xcassets in Resources */,
 				11BC0FA223D384520020DAE9 /* Assets.xcassets in Resources */,
+				11BC0FB423D397C30020DAE9 /* drinkContents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +164,11 @@
 			files = (
 				11BC0F9C23D384500020DAE9 /* AppDelegate.swift in Sources */,
 				11BC0F9E23D384500020DAE9 /* SceneDelegate.swift in Sources */,
-				11BC0FA023D384500020DAE9 /* ContentView.swift in Sources */,
+				11BC0FB623D3C60C0020DAE9 /* WelcomeScreen.swift in Sources */,
+				11BC0FA023D384500020DAE9 /* DrinkView.swift in Sources */,
+				11BC0FB823D3C97D0020DAE9 /* ContentView.swift in Sources */,
+				11BC0FBA23D3E0050020DAE9 /* SelectionView.swift in Sources */,
+				11BC0FBC23D3E5680020DAE9 /* PreferencesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

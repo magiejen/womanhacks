@@ -48,19 +48,20 @@ struct DrinkView: View {
     var body: some View {
 
         ZStack {
-            Color(red: 207/255.0, green: 244/255.0, blue: 255/255.0, opacity: 1)
-            .edgesIgnoringSafeArea(.all)
+            //Color(red: 207/255.0, green: 244/255.0, blue: 255/255.0, opacity: 1)
+            RadialGradient(gradient: Gradient(colors: [Color(red: 181/255.0, green: 255/255.0, blue: 244/255.0, opacity: 1), Color(red: 78/255.0, green: 161/255.0, blue: 194/255.0, opacity: 1)]), center: .center, startRadius: 2, endRadius: 500).edgesIgnoringSafeArea(.all)
+            
             VStack {
                 Spacer(minLength: 175)
                 Text("\(heat)").font(.custom("Avenir", size: 30)).padding()
                 Text("\(flavor)").font(.custom("Avenir", size: 30)).padding()
                 Text("\(base)").font(.custom("Avenir", size: 30)).padding()
                 Text("with \(topping)").font(.custom("Avenir", size: 30)).padding()
+                Spacer(minLength: 20)
                 Text("You got: \(heat) \(flavor) \(base) with \(topping)")
                     .font(.custom("American Typewriter", size: 30))
                     .padding()
                     .multilineTextAlignment(.center)
-                Spacer(minLength: 75)
                 Button(action: {
                     self.fillCup()
                 })  {
@@ -76,9 +77,10 @@ struct DrinkView: View {
                             RoundedRectangle(cornerRadius: 40)
                                 .stroke(Color(red: 163/255.0, green: 163/255.0, blue: 163/255.0, opacity: 1), lineWidth: 1)
                         )
+                        .padding(.top, 8)
                 }
                 Spacer(minLength: 55)
-            }.transition(.slide)
+            }.edgesIgnoringSafeArea(.all)
         }
         
         
