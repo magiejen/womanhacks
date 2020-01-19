@@ -29,7 +29,7 @@ struct DrinkView: View {
     @State var flavor = "strawberry"
     @State var base = "green tea"
     
-    let drink_toppings = ["boba"," lychee jelly", "coffee jelly", "aloe vera", "grass jelly", "egg pudding", "milk pudding", "crystal boba", "mini boba", "popping boba", "red bean", "mungbean", "coconut jelly", "sago", "basil seed"]
+    let drink_toppings = ["boba","lychee jelly", "coffee jelly", "aloe vera", "grass jelly", "egg pudding", "milk pudding", "crystal boba", "mini boba", "popping boba", "red bean", "mungbean", "coconut jelly", "sago", "basil seed"]
     let fruit_flavors = ["strawberry", "mango", "orange", "lemon", "passionfruit", "lychee", "wintermelon", "peach", "grapefruit", "longan", "honey"]
     let milk_flavors = ["milk", "coffee", "Thai", "taro", "rose", "jasmine"]
     let drink_heat = ["iced", "hot"]
@@ -55,7 +55,7 @@ struct DrinkView: View {
     var body: some View {
 
         ZStack {
-            RadialGradient(gradient: Gradient(colors: [Color(red: 181/255.0, green: 255/255.0, blue: 244/255.0, opacity: 1), Color(red: 78/255.0, green: 161/255.0, blue: 194/255.0, opacity: 1)]), center: .center, startRadius: 2, endRadius: 500).edgesIgnoringSafeArea(.all)
+            RadialGradient(gradient: Gradient(colors: [.white, Color(red: 78/255.0, green: 161/255.0, blue: 194/255.0, opacity: 1)]), center: .center, startRadius: 2, endRadius: 500).edgesIgnoringSafeArea(.all)
             VStack {
                 Spacer(minLength: 50)
                 blankBobaImage(flavor: $flavor)
@@ -70,7 +70,10 @@ struct DrinkView: View {
 //                Text("\(flavor)").font(.custom("Avenir", size: 30)).padding()
 //                Text("\(base)").font(.custom("Avenir", size: 30)).padding()
 //                Text("with \(topping)").font(.custom("Avenir", size: 30)).padding()
-                Text("You got: \(heat) \(flavor) \(base) with \(topping)")
+                Text("Your boba order:")
+                    .font(.custom("American Typewriter", size: 20))
+                    .padding(.top, 8)
+                Text("\(heat) \(flavor) \(base) \n with \(topping)")
                     .font(.custom("American Typewriter", size: 25))
                     .padding()
                     .multilineTextAlignment(.center)
