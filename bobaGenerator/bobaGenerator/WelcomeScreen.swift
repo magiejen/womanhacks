@@ -12,7 +12,7 @@ struct WelcomeScreen: View {
     var body: some View {
         VStack{
             Spacer()
-            Text("Boba'd.").font(.custom("American Typewriter", size: 70)).padding()
+            Text("Boba'd").font(.custom("American Typewriter", size: 70)).padding()
             Spacer()
         }
        

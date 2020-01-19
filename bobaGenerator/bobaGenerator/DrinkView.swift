@@ -57,7 +57,7 @@ struct DrinkView: View {
         ZStack {
             RadialGradient(gradient: Gradient(colors: [Color(red: 181/255.0, green: 255/255.0, blue: 244/255.0, opacity: 1), Color(red: 78/255.0, green: 161/255.0, blue: 194/255.0, opacity: 1)]), center: .center, startRadius: 2, endRadius: 500).edgesIgnoringSafeArea(.all)
             VStack {
-                Spacer(minLength: 50)
+                Spacer(minLength: 40)
                 blankBobaImage(flavor: $flavor)
                 toppingView(topping: $topping).offset(y: -408)
                 .padding(.bottom, -408)
@@ -73,7 +73,11 @@ struct DrinkView: View {
 //                Text("\(flavor)").font(.custom("Avenir", size: 30)).padding()
 //                Text("\(base)").font(.custom("Avenir", size: 30)).padding()
 //                Text("with \(topping)").font(.custom("Avenir", size: 30)).padding()
-                Text("You got: \(heat) \(flavor) \(base) with \(topping)")
+                Text("Your boba order:")
+                    .font(.custom("American Typewriter", size: 20))
+                    .padding()
+                    .multilineTextAlignment(.center)
+                Text("\(heat) \(flavor) \(base) \n with \(topping)")
                     .font(.custom("American Typewriter", size: 25))
                     .padding()
                     .multilineTextAlignment(.center)
