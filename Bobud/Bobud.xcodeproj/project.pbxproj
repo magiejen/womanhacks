@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		231C7C1E23D3B51A00C1A660 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C7C1D23D3B51A00C1A660 /* AppDelegate.swift */; };
+		231C7C2023D3B51A00C1A660 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C7C1F23D3B51A00C1A660 /* SceneDelegate.swift */; };
+		231C7C2223D3B51A00C1A660 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C7C2123D3B51A00C1A660 /* ContentView.swift */; };
+		231C7C2423D3B52200C1A660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231C7C2323D3B52200C1A660 /* Assets.xcassets */; };
+		231C7C2723D3B52200C1A660 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231C7C2623D3B52200C1A660 /* Preview Assets.xcassets */; };
+		231C7C2A23D3B52200C1A660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 231C7C2823D3B52200C1A660 /* LaunchScreen.storyboard */; };
+		231C7C3523D3B52300C1A660 /* BobudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C7C3423D3B52300C1A660 /* BobudTests.swift */; };
+		231C7C4023D3B52300C1A660 /* BobudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C7C3F23D3B52300C1A660 /* BobudUITests.swift */; };
+		231C7C5123D3E96600C1A660 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C7C5023D3E96600C1A660 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		231C7C3123D3B52300C1A660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 231C7C1223D3B51A00C1A660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 231C7C1923D3B51A00C1A660;
+			remoteInfo = Bobud;
+		};
+		231C7C3C23D3B52300C1A660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 231C7C1223D3B51A00C1A660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 231C7C1923D3B51A00C1A660;
+			remoteInfo = Bobud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		231C7C1A23D3B51A00C1A660 /* Bobud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bobud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		231C7C1D23D3B51A00C1A660 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		231C7C1F23D3B51A00C1A660 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		231C7C2123D3B51A00C1A660 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		231C7C2323D3B52200C1A660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		231C7C2623D3B52200C1A660 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		231C7C2923D3B52200C1A660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		231C7C2B23D3B52200C1A660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		231C7C3023D3B52300C1A660 /* BobudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BobudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		231C7C3423D3B52300C1A660 /* BobudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobudTests.swift; sourceTree = "<group>"; };
+		231C7C3623D3B52300C1A660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		231C7C3B23D3B52300C1A660 /* BobudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BobudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		231C7C3F23D3B52300C1A660 /* BobudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobudUITests.swift; sourceTree = "<group>"; };
+		231C7C4123D3B52300C1A660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		231C7C5023D3E96600C1A660 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		231C7C1723D3B51A00C1A660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231C7C2D23D3B52300C1A660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231C7C3823D3B52300C1A660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		231C7C1123D3B51A00C1A660 = {
+			isa = PBXGroup;
+			children = (
+				231C7C1C23D3B51A00C1A660 /* Bobud */,
+				231C7C3323D3B52300C1A660 /* BobudTests */,
+				231C7C3E23D3B52300C1A660 /* BobudUITests */,
+				231C7C1B23D3B51A00C1A660 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		231C7C1B23D3B51A00C1A660 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				231C7C1A23D3B51A00C1A660 /* Bobud.app */,
+				231C7C3023D3B52300C1A660 /* BobudTests.xctest */,
+				231C7C3B23D3B52300C1A660 /* BobudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		231C7C1C23D3B51A00C1A660 /* Bobud */ = {
+			isa = PBXGroup;
+			children = (
+				231C7C4D23D3E87F00C1A660 /* View Controllers */,
+				231C7C1D23D3B51A00C1A660 /* AppDelegate.swift */,
+				231C7C1F23D3B51A00C1A660 /* SceneDelegate.swift */,
+				231C7C2123D3B51A00C1A660 /* ContentView.swift */,
+				231C7C2323D3B52200C1A660 /* Assets.xcassets */,
+				231C7C2823D3B52200C1A660 /* LaunchScreen.storyboard */,
+				231C7C2B23D3B52200C1A660 /* Info.plist */,
+				231C7C2523D3B52200C1A660 /* Preview Content */,
+			);
+			path = Bobud;
+			sourceTree = "<group>";
+		};
+		231C7C2523D3B52200C1A660 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				231C7C2623D3B52200C1A660 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		231C7C3323D3B52300C1A660 /* BobudTests */ = {
+			isa = PBXGroup;
+			children = (
+				231C7C3423D3B52300C1A660 /* BobudTests.swift */,
+				231C7C3623D3B52300C1A660 /* Info.plist */,
+			);
+			path = BobudTests;
+			sourceTree = "<group>";
+		};
+		231C7C3E23D3B52300C1A660 /* BobudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				231C7C3F23D3B52300C1A660 /* BobudUITests.swift */,
+				231C7C4123D3B52300C1A660 /* Info.plist */,
+			);
+			path = BobudUITests;
+			sourceTree = "<group>";
+		};
+		231C7C4D23D3E87F00C1A660 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				231C7C5023D3E96600C1A660 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		231C7C1923D3B51A00C1A660 /* Bobud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231C7C4423D3B52300C1A660 /* Build configuration list for PBXNativeTarget "Bobud" */;
+			buildPhases = (
+				231C7C1623D3B51A00C1A660 /* Sources */,
+				231C7C1723D3B51A00C1A660 /* Frameworks */,
+				231C7C1823D3B51A00C1A660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bobud;
+			productName = Bobud;
+			productReference = 231C7C1A23D3B51A00C1A660 /* Bobud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		231C7C2F23D3B52300C1A660 /* BobudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231C7C4723D3B52300C1A660 /* Build configuration list for PBXNativeTarget "BobudTests" */;
+			buildPhases = (
+				231C7C2C23D3B52300C1A660 /* Sources */,
+				231C7C2D23D3B52300C1A660 /* Frameworks */,
+				231C7C2E23D3B52300C1A660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				231C7C3223D3B52300C1A660 /* PBXTargetDependency */,
+			);
+			name = BobudTests;
+			productName = BobudTests;
+			productReference = 231C7C3023D3B52300C1A660 /* BobudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		231C7C3A23D3B52300C1A660 /* BobudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231C7C4A23D3B52300C1A660 /* Build configuration list for PBXNativeTarget "BobudUITests" */;
+			buildPhases = (
+				231C7C3723D3B52300C1A660 /* Sources */,
+				231C7C3823D3B52300C1A660 /* Frameworks */,
+				231C7C3923D3B52300C1A660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				231C7C3D23D3B52300C1A660 /* PBXTargetDependency */,
+			);
+			name = BobudUITests;
+			productName = BobudUITests;
+			productReference = 231C7C3B23D3B52300C1A660 /* BobudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		231C7C1223D3B51A00C1A660 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = womxnhacks20;
+				TargetAttributes = {
+					231C7C1923D3B51A00C1A660 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					231C7C2F23D3B52300C1A660 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 231C7C1923D3B51A00C1A660;
+					};
+					231C7C3A23D3B52300C1A660 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 231C7C1923D3B51A00C1A660;
+					};
+				};
+			};
+			buildConfigurationList = 231C7C1523D3B51A00C1A660 /* Build configuration list for PBXProject "Bobud" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 231C7C1123D3B51A00C1A660;
+			productRefGroup = 231C7C1B23D3B51A00C1A660 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				231C7C1923D3B51A00C1A660 /* Bobud */,
+				231C7C2F23D3B52300C1A660 /* BobudTests */,
+				231C7C3A23D3B52300C1A660 /* BobudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		231C7C1823D3B51A00C1A660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231C7C2A23D3B52200C1A660 /* LaunchScreen.storyboard in Resources */,
+				231C7C2723D3B52200C1A660 /* Preview Assets.xcassets in Resources */,
+				231C7C2423D3B52200C1A660 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231C7C2E23D3B52300C1A660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231C7C3923D3B52300C1A660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		231C7C1623D3B51A00C1A660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231C7C1E23D3B51A00C1A660 /* AppDelegate.swift in Sources */,
+				231C7C2023D3B51A00C1A660 /* SceneDelegate.swift in Sources */,
+				231C7C5123D3E96600C1A660 /* ViewController.swift in Sources */,
+				231C7C2223D3B51A00C1A660 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231C7C2C23D3B52300C1A660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231C7C3523D3B52300C1A660 /* BobudTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231C7C3723D3B52300C1A660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231C7C4023D3B52300C1A660 /* BobudUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		231C7C3223D3B52300C1A660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 231C7C1923D3B51A00C1A660 /* Bobud */;
+			targetProxy = 231C7C3123D3B52300C1A660 /* PBXContainerItemProxy */;
+		};
+		231C7C3D23D3B52300C1A660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 231C7C1923D3B51A00C1A660 /* Bobud */;
+			targetProxy = 231C7C3C23D3B52300C1A660 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		231C7C2823D3B52200C1A660 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				231C7C2923D3B52200C1A660 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		231C7C4223D3B52300C1A660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		231C7C4323D3B52300C1A660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		231C7C4523D3B52300C1A660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Bobud/Preview Content\"";
+				DEVELOPMENT_TEAM = D68894UQFQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Bobud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = womxnhacks20.Bobud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		231C7C4623D3B52300C1A660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Bobud/Preview Content\"";
+				DEVELOPMENT_TEAM = D68894UQFQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Bobud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = womxnhacks20.Bobud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		231C7C4823D3B52300C1A660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D68894UQFQ;
+				INFOPLIST_FILE = BobudTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = womxnhacks20.BobudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bobud.app/Bobud";
+			};
+			name = Debug;
+		};
+		231C7C4923D3B52300C1A660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D68894UQFQ;
+				INFOPLIST_FILE = BobudTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = womxnhacks20.BobudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bobud.app/Bobud";
+			};
+			name = Release;
+		};
+		231C7C4B23D3B52300C1A660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D68894UQFQ;
+				INFOPLIST_FILE = BobudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = womxnhacks20.BobudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bobud;
+			};
+			name = Debug;
+		};
+		231C7C4C23D3B52300C1A660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D68894UQFQ;
+				INFOPLIST_FILE = BobudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = womxnhacks20.BobudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bobud;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		231C7C1523D3B51A00C1A660 /* Build configuration list for PBXProject "Bobud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231C7C4223D3B52300C1A660 /* Debug */,
+				231C7C4323D3B52300C1A660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		231C7C4423D3B52300C1A660 /* Build configuration list for PBXNativeTarget "Bobud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231C7C4523D3B52300C1A660 /* Debug */,
+				231C7C4623D3B52300C1A660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		231C7C4723D3B52300C1A660 /* Build configuration list for PBXNativeTarget "BobudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231C7C4823D3B52300C1A660 /* Debug */,
+				231C7C4923D3B52300C1A660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		231C7C4A23D3B52300C1A660 /* Build configuration list for PBXNativeTarget "BobudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231C7C4B23D3B52300C1A660 /* Debug */,
+				231C7C4C23D3B52300C1A660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 231C7C1223D3B51A00C1A660 /* Project object */;
+}
