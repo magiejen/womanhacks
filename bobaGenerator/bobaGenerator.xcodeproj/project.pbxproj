@@ -21,6 +21,7 @@
 		231C7C6023D3F45400C1A660 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C7C5F23D3F45400C1A660 /* PreferencesView.swift */; };
 		231C7C6223D3FC6D00C1A660 /* blankBobaImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C7C6123D3FC6D00C1A660 /* blankBobaImage.swift */; };
 		231C7C6423D407F900C1A660 /* bobaOutline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C7C6323D407F900C1A660 /* bobaOutline.swift */; };
+		231C7C6623D4327100C1A660 /* toppingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C7C6523D4327100C1A660 /* toppingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		231C7C5F23D3F45400C1A660 /* PreferencesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
 		231C7C6123D3FC6D00C1A660 /* blankBobaImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blankBobaImage.swift; sourceTree = "<group>"; };
 		231C7C6323D407F900C1A660 /* bobaOutline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bobaOutline.swift; sourceTree = "<group>"; };
+		231C7C6523D4327100C1A660 /* toppingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toppingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				11BC0F9D23D384500020DAE9 /* SceneDelegate.swift */,
 				231C7C6323D407F900C1A660 /* bobaOutline.swift */,
 				231C7C5923D3F3E800C1A660 /* SelectionView.swift */,
+				231C7C6523D4327100C1A660 /* toppingView.swift */,
 				231C7C5D23D3F40A00C1A660 /* DrinkView.swift */,
 				231C7C6123D3FC6D00C1A660 /* blankBobaImage.swift */,
 				231C7C5F23D3F45400C1A660 /* PreferencesView.swift */,
@@ -190,6 +193,7 @@
 				231C7C6423D407F900C1A660 /* bobaOutline.swift in Sources */,
 				11BC0F9C23D384500020DAE9 /* AppDelegate.swift in Sources */,
 				231C7C5723D3F05B00C1A660 /* BobaViewController.swift in Sources */,
+				231C7C6623D4327100C1A660 /* toppingView.swift in Sources */,
 				11BC0F9E23D384500020DAE9 /* SceneDelegate.swift in Sources */,
 				231C7C5423D3EF8D00C1A660 /* BobaView.swift in Sources */,
 				231C7C6023D3F45400C1A660 /* PreferencesView.swift in Sources */,

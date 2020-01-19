@@ -10,7 +10,7 @@ import SwiftUI
 
 struct bobaOutline: View {
     var body: some View {
-        Image("bobaOutline1").resizable().frame(width: 300, height: 400)
+        Image("boba outline 2").resizable().frame(width: 300, height: 400)
     }
 }
 

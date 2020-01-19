@@ -16,7 +16,7 @@ struct ContentView: View {
             Color(red: 207/255.0, green: 244/255.0, blue: 255/255.0, opacity: 1).edgesIgnoringSafeArea(.all)
             VStack {
                 if view {
-                    SelectionView()
+                    DrinkView()
                 } else {
                     WelcomeScreen()
                     Spacer()

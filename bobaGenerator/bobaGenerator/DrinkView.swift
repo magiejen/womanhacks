@@ -29,7 +29,7 @@ struct DrinkView: View {
     @State var flavor = "strawberry"
     @State var base = "green tea"
     
-    let drink_toppings = ["boba"," lychee jelly", "coffee jelly", "aloe vera", "grass jelly", "egg pudding", "milk pudding", "crystal boba", "mini boba", "popping boba", "red bean", "mungbean", "coconut jelly", "sago", "basil seed"]
+    let drink_toppings = ["boba", "lychee jelly", "coffee jelly", "aloe vera", "grass jelly", "egg pudding", "crystal boba", "mini boba", "red bean", "mungbean", "coconut jelly", "sago", "basil seed"]
     let fruit_flavors = ["strawberry", "mango", "orange", "lemon", "passionfruit", "lychee", "wintermelon", "peach", "grapefruit", "longan", "honey"]
     let milk_flavors = ["milk", "coffee", "Thai", "taro", "rose", "jasmine"]
     let drink_heat = ["iced", "hot"]
@@ -59,8 +59,11 @@ struct DrinkView: View {
             VStack {
                 Spacer(minLength: 50)
                 blankBobaImage(flavor: $flavor)
-                bobaOutline().offset(y: -408)
-                    .padding(.bottom, -408)
+                toppingView(topping: $topping).offset(y: -408)
+                .padding(.bottom, -408)
+                bobaOutline().offset(y: -417)
+                    .padding(.bottom, -417)
+                
 //                let imageName1 = "blankBoba.png"
 //                let image1 = UIImage(named: imageName1)
 //                let imageView1 = UIImageView(image: image1!)
