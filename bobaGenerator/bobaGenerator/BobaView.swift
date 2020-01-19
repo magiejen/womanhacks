@@ -38,7 +38,13 @@ struct BobaView: View {
         "Thai": Color(red: 225/255, green: (135/255), blue: 0, opacity: 1),
         "taro": Color(red: (207/255), green: (157/255), blue: 250/255, opacity: 0.8),
         "rose": Color(red: 253/255, green: (215/255), blue: (239/255), opacity: 0.8),
-        "jasmine": Color(red: 249/255, green: (253/255), blue: 231/255, opacity: 1)
+        "jasmine": Color(red: 249/255, green: (253/255), blue: 231/255, opacity: 1),
+        "peach": Color(red: 1, green: (184/255), blue: (129/255), opacity: 0.8),
+        "grapefruit": Color(red: 227/255, green: 128/255, blue: 109/255),
+        "lychee": Color(red: 172/255, green: 152/255, blue: 122/255),
+        "wintermelon": Color(red: 208/255, green: 216/255, blue: 173/255),
+        "longan": Color(red: 134/255, green: 46/255, blue: 36/255),
+        "honey": Color(red: 231/255, green: 190/255, blue: 105/255)
     ]
     
 //    var yogurtTeaColors: [String:Color] = [

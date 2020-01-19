@@ -58,7 +58,7 @@ struct DrinkView: View {
             RadialGradient(gradient: Gradient(colors: [Color(red: 181/255.0, green: 255/255.0, blue: 244/255.0, opacity: 1), Color(red: 78/255.0, green: 161/255.0, blue: 194/255.0, opacity: 1)]), center: .center, startRadius: 2, endRadius: 500).edgesIgnoringSafeArea(.all)
             VStack {
                 Spacer(minLength: 50)
-                blankBobaImage()
+                blankBobaImage(flavor: $flavor)
                 bobaOutline().offset(y: -408)
                     .padding(.bottom, -408)
 //                let imageName1 = "blankBoba.png"
