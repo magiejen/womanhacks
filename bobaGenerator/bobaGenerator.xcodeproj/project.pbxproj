@@ -15,6 +15,12 @@
 		11BC0FA823D384520020DAE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11BC0FA623D384520020DAE9 /* LaunchScreen.storyboard */; };
 		231C7C5423D3EF8D00C1A660 /* BobaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C7C5323D3EF8D00C1A660 /* BobaView.swift */; };
 		231C7C5723D3F05B00C1A660 /* BobaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C7C5623D3F05B00C1A660 /* BobaViewController.swift */; };
+		231C7C5A23D3F3E900C1A660 /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C7C5923D3F3E800C1A660 /* SelectionView.swift */; };
+		231C7C5C23D3F3F300C1A660 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C7C5B23D3F3F300C1A660 /* WelcomeScreen.swift */; };
+		231C7C5E23D3F40A00C1A660 /* DrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C7C5D23D3F40A00C1A660 /* DrinkView.swift */; };
+		231C7C6023D3F45400C1A660 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C7C5F23D3F45400C1A660 /* PreferencesView.swift */; };
+		231C7C6223D3FC6D00C1A660 /* blankBobaImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C7C6123D3FC6D00C1A660 /* blankBobaImage.swift */; };
+		231C7C6423D407F900C1A660 /* bobaOutline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C7C6323D407F900C1A660 /* bobaOutline.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,12 @@
 		11BC0FA923D384520020DAE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		231C7C5323D3EF8D00C1A660 /* BobaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobaView.swift; sourceTree = "<group>"; };
 		231C7C5623D3F05B00C1A660 /* BobaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobaViewController.swift; sourceTree = "<group>"; };
+		231C7C5923D3F3E800C1A660 /* SelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		231C7C5B23D3F3F300C1A660 /* WelcomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		231C7C5D23D3F40A00C1A660 /* DrinkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkView.swift; sourceTree = "<group>"; };
+		231C7C5F23D3F45400C1A660 /* PreferencesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		231C7C6123D3FC6D00C1A660 /* blankBobaImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blankBobaImage.swift; sourceTree = "<group>"; };
+		231C7C6323D407F900C1A660 /* bobaOutline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bobaOutline.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +72,17 @@
 		11BC0F9A23D384500020DAE9 /* bobaGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				231C7C5823D3F1EA00C1A660 /* Resources */,
 				231C7C5523D3F03700C1A660 /* View Controllers */,
 				11BC0F9B23D384500020DAE9 /* AppDelegate.swift */,
 				11BC0F9D23D384500020DAE9 /* SceneDelegate.swift */,
+				231C7C6323D407F900C1A660 /* bobaOutline.swift */,
+				231C7C5923D3F3E800C1A660 /* SelectionView.swift */,
+				231C7C5D23D3F40A00C1A660 /* DrinkView.swift */,
+				231C7C6123D3FC6D00C1A660 /* blankBobaImage.swift */,
+				231C7C5F23D3F45400C1A660 /* PreferencesView.swift */,
+				231C7C5B23D3F3F300C1A660 /* WelcomeScreen.swift */,
 				11BC0F9F23D384500020DAE9 /* ContentView.swift */,
-				11BC0FA123D384520020DAE9 /* Assets.xcassets */,
 				11BC0FA623D384520020DAE9 /* LaunchScreen.storyboard */,
 				11BC0FA923D384520020DAE9 /* Info.plist */,
 				11BC0FA323D384520020DAE9 /* Preview Content */,
@@ -87,6 +105,14 @@
 				231C7C5623D3F05B00C1A660 /* BobaViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		231C7C5823D3F1EA00C1A660 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11BC0FA123D384520020DAE9 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,11 +186,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231C7C6223D3FC6D00C1A660 /* blankBobaImage.swift in Sources */,
+				231C7C6423D407F900C1A660 /* bobaOutline.swift in Sources */,
 				11BC0F9C23D384500020DAE9 /* AppDelegate.swift in Sources */,
 				231C7C5723D3F05B00C1A660 /* BobaViewController.swift in Sources */,
 				11BC0F9E23D384500020DAE9 /* SceneDelegate.swift in Sources */,
 				231C7C5423D3EF8D00C1A660 /* BobaView.swift in Sources */,
+				231C7C6023D3F45400C1A660 /* PreferencesView.swift in Sources */,
+				231C7C5C23D3F3F300C1A660 /* WelcomeScreen.swift in Sources */,
+				231C7C5E23D3F40A00C1A660 /* DrinkView.swift in Sources */,
 				11BC0FA023D384500020DAE9 /* ContentView.swift in Sources */,
+				231C7C5A23D3F3E900C1A660 /* SelectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
